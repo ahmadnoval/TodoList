@@ -66,6 +66,11 @@
                         </div>
                         <CreateTodo />
                     </section>
+                    <div className="d-flex justify-content-center py-4">
+                            <button className="btn btn-warning btn-sm mx-4 px-5">All</button>
+                            <button className="btn btn-danger btn-sm mx-4 px-5">Complete</button>
+                            <button className="btn btn-info btn-sm mx-4 px-5">Active</button>
+                    </div>
 
                     <section className="row list-todo py-4">
                         {
